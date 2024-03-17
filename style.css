@@ -1,0 +1,53 @@
+.div1{
+    background-color: grey;
+    width: 20%;
+    height: fit-content;
+    text-align: center;
+}
+.div2{
+    background-color: gray;
+    margin-left: 2px;
+    width: 90%;
+    text-align: end;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    margin: 2px;
+    
+}
+.container1,.container2{
+    display: flex;
+    
+}
+.div3{
+   width: 60%;
+    background-color: gray;
+    height: 550px;
+}
+.div4{
+    width: 40%;
+    background-color: gray;
+    height: 550px;
+    margin-left:5px ;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    margin-top: 6px;
+}
+.p5{
+    padding-right: 20px;
+}
+.p4{
+    padding-left: 20px;
+}
+.p2,.p3{
+    padding-left: 10px;
+}
+a:hover{
+    color: white;
+    cursor: pointer;
+    
+}
